@@ -37,7 +37,7 @@ var initSetup = async function () {
     floorMeshes: [environment1.ground]
   });
   new DirectionalLight("dir01", new Vector3(0.25, -1, 0), scene);
-
+  //novy
   window.addEventListener("resize", () => engine.resize());
 
   engine.runRenderLoop(() => scene.render());
